@@ -30,5 +30,84 @@ site by making a contribution via
 
 ## The list
 
-* foo
-* bar
+
+#### Scikit-Image
+
+[Scikit-Image](http://scikit-image.org) provides a
+[framework](http://scikit-image.org/docs/stable/api/skimage.transform.html)
+for finding the transform between images and using it to
+[warp](http://scikit-image.org/docs/stable/api/skimage.transform.html#warp)
+one image onto another.
+
+Installation: available via conda.
+
+
+#### SimpleITK
+
+[SimpleITK](https://github.com/SimpleITK/SimpleITK) is a C++ library
+that has bindings for Python. See e.g. examples for
+[B-spline](https://github.com/SimpleITK/SimpleITK/blob/master/Examples/Python/ImageRegistrationMethodBSpline1.py)
+and [Demons](https://github.com/SimpleITK/SimpleITK/blob/master/Examples/Python/DemonsRegistration1.py).
+
+Installation: via [conda](https://anaconda.org/SimpleITK/simpleitk) or
+[pip](https://pypi.python.org/pypi/SimpleITK).
+
+
+#### PyElastix
+
+[PyElastix](https://github.com/almarklein/pyelastix) is a thin wrapper around
+the Elastix toolkit. Written in pure Python, so no compilation required.
+
+Installation: pip or conda.
+
+
+#### Nipy
+
+[Dipy](http://nipy.org/dipy/) includes methods for Diffeomorphic registration in
+[2D](http://nipy.org/dipy/examples_built/syn_registration_2d.html)
+and [3D](http://nipy.org/dipy/examples_built/syn_registration_3d.html).
+
+The nireg subopackage also provides functionality image registration.
+Need more info.
+
+Installation: see [instructions](http://nipy.org/nipy/users/installation.html)
+
+
+#### SimpleElastix
+
+[SimpleElastix](https://simpleelastix.github.io/) is an extension of SimpleITK
+that includes Elastix to offer more registration algorithms.
+
+Installation: compilation is difficult, but there is an
+[effort](https://github.com/conda-forge/staged-recipes/pull/324) to put it
+on conda-forge.
+
+
+#### PIRT
+
+[PIRT](https://bitbucket.org/almarklein/pirt) is a framework for exposing
+a variety of elastic registration algorithms via a common API, including
+Demons, a diffeomorphic (i.e. geometrically correct) variety of  Demons, and
+more. The algorithms are written in Cython for speed, and therefore needs
+compilation. It's a bit idiosyncratic, tied to visvis, and the original
+developer does not have time to maintain it mutch.
+
+Installation: needs compilation
+
+
+#### Python-register
+
+[python-register](https://github.com/pyimreg/python-register) is a package
+for image registration built ontop of scipy and numpy. Installation needs
+compilation.
+
+Installation: needs compilation
+
+
+#### Silx
+
+The [Silx toolkit[(https://github.com/silx-kit/silx) includes a GPU-based
+SIFT registration algorithm.
+
+Installation: needs compilation?
+
