@@ -28,10 +28,19 @@ site by making a contribution via
 [the Github page](https://github.com/pyimreg/pyimreg.github.com).
 
 
-----
-
 ## The list
 
+* <a href='#Scikit-Image'>Scikit-Image</a>
+* <a href='#SimpleITK'>SimpleITK</a>
+* <a href='#PyElastix'>PyElastix</a>
+* <a href='#Nipy'>Nipy</a>
+* <a href='#SimpleElastix'>SimpleElastix</a>
+* <a href='#PIRT'>PIRT</a>
+* <a href='#Python-register'>Python-register</a>
+* <a href='#Silx'>Silx</a>
+
+
+----
 
 ### Scikit-Image
 
