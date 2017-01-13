@@ -44,7 +44,8 @@ site by making a contribution via
 
 ### Scikit-Image
 
-[Scikit-Image](http://scikit-image.org) provides a
+[Scikit-Image](http://scikit-image.org) is a popular and well-maintained image processing toolkit,
+which also provides a
 [framework](http://scikit-image.org/docs/stable/api/skimage.transform.html)
 for finding the transform between images and using it to
 [warp](http://scikit-image.org/docs/stable/api/skimage.transform.html#warp)
@@ -109,15 +110,14 @@ Installation: needs compilation
 ### Python-register
 
 [python-register](https://github.com/pyimreg/python-register) is a package
-for image registration built ontop of scipy and numpy. Installation needs
-compilation.
+for image registration built on top of scipy and numpy.
 
 Installation: needs compilation
 
 
 ### Silx
 
-The [Silx toolkit[(https://github.com/silx-kit/silx) includes a GPU-based
+The [Silx toolkit](https://github.com/silx-kit/silx) includes a GPU-based
 SIFT registration algorithm.
 
 Installation: needs compilation?
