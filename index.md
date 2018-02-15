@@ -58,8 +58,8 @@ Installation: available via conda.
 
 [SimpleITK](https://github.com/SimpleITK/SimpleITK) is a C++ library
 that has bindings for Python. See e.g. examples for
-[B-spline](https://github.com/SimpleITK/SimpleITK/blob/master/Examples/Python/ImageRegistrationMethodBSpline1.py)
-and [Demons](https://github.com/SimpleITK/SimpleITK/blob/master/Examples/Python/DemonsRegistration1.py).
+[B-spline](https://github.com/SimpleITK/SimpleITK/blob/next/Examples/ImageRegistrationMethodBSpline1/ImageRegistrationMethodBSpline1.py)
+and [Demons](https://github.com/SimpleITK/SimpleITK/blob/next/Examples/DemonsRegistration1/DemonsRegistration1.py).
 
 Installation: via [conda](https://anaconda.org/SimpleITK/simpleitk) or
 [pip](https://pypi.python.org/pypi/SimpleITK).
