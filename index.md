@@ -34,7 +34,7 @@ site by making a contribution via
 * <a href='#simpleitk'>SimpleITK</a>
 * <a href='#pyelastix'>PyElastix</a>
 * <a href='#dipy'>dipy</a>
-* <a href='#ANTsPy'>ANTsPy</a>
+* <a href='#antspy'>ANTsPy</a>
 * <a href='#nireg'>nireg</a>
 * <a href='#simpleelastix'>SimpleElastix</a>
 * <a href='#pirt'>PIRT</a>
