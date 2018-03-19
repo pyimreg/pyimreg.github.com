@@ -105,14 +105,14 @@ on conda-forge.
 
 ### PIRT
 
-[PIRT](https://bitbucket.org/almarklein/pirt) is a framework for exposing
+[PIRT](http://pirt.readthedocs.io) is a framework for exposing
 a variety of elastic registration algorithms via a common API, including
 Demons, a diffeomorphic (i.e. geometrically correct) variety of  Demons, and
-more. The algorithms are written in Cython for speed, and therefore needs
-compilation. It's a bit idiosyncratic, tied to visvis, and the original
-developer does not have time to maintain it mutch.
+more. The algorithms were previously written in Cython, but are now implemented
+in Python, yet running at C-speed thanks to Numba, making installation easy.
+Not very actively maintained at the moment.
 
-Installation: needs compilation
+Installation: pip
 
 
 ### Python-register
