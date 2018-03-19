@@ -33,12 +33,13 @@ site by making a contribution via
 * <a href='#scikit-image'>Scikit-Image</a>
 * <a href='#simpleitk'>SimpleITK</a>
 * <a href='#pyelastix'>PyElastix</a>
-* <a href='#nipy'>Nipy</a>
-* <a href='#simpleElastix'>SimpleElastix</a>
+* <a href='#dipy'>dipy</a>
+* <a href='#antspy'>ANTsPy</a>
+* <a href='#nireg'>nireg</a>
+* <a href='#simpleelastix'>SimpleElastix</a>
 * <a href='#pirt'>PIRT</a>
 * <a href='#python-register'>Python-register</a>
 * <a href='#silx'>Silx</a>
-
 
 ----
 
@@ -73,16 +74,23 @@ the Elastix toolkit. Written in pure Python, so no compilation required.
 Installation: pip or conda.
 
 
-### Nipy
+### dipy
 
 [Dipy](http://nipy.org/dipy/) includes methods for Diffeomorphic registration in
 [2D](http://nipy.org/dipy/examples_built/syn_registration_2d.html)
 and [3D](http://nipy.org/dipy/examples_built/syn_registration_3d.html).
 
-The nireg subopackage also provides functionality image registration.
-Need more info.
+Installation: see [instructions](http://nipy.org/dipy/installation.html)
 
-Installation: see [instructions](http://nipy.org/nipy/users/installation.html)
+### nireg
+
+[nireg](https://github.com/nipy/nireg) aims to be a dedicated pure-Python image registration package. 
+
+It is yet to be fully documented and made usable to dummy users.
+
+### ANTsPy
+
+[ANTsPy](https://github.com/ANTsX/ANTsPy) is a Python library which wraps the C++ biomedical image processing library ANTs, which has registration capabilities. Some documentation is available, and it is yet to be fully documented.
 
 
 ### SimpleElastix
