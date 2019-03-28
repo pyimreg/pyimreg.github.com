@@ -40,6 +40,7 @@ site by making a contribution via
 * <a href='#pirt'>PIRT</a>
 * <a href='#python-register'>Python-register</a>
 * <a href='#silx'>Silx</a>
+* <a href='#gefolki'>GeFolki</a>
 
 ----
 
@@ -130,3 +131,8 @@ SIFT registration algorithm.
 
 Installation: needs compilation?
 
+### GeFolki
+
+[GeFolki](https://github.com/aplyer/gefolki) (Geoscience Extended FlOw Lucas- Kanade Iterative) is a coregistration method that has been developped in the framework of the [MEDUSA project](https://w3.onera.fr/medusa/gefolki), first for SAR/SAR co-registration, then for other cases of remote sensing image coregistration, including hetergeneous image co-registration (ex LIDAR/SAR, optics/SAR, hyperspectral/optics and so on). It is an adaptation of an optical flow method. The method is implemented in both Python and MATLAB.
+
+Installation: Just download the repo. Examples on how to use the modules are given. 
