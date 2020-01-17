@@ -81,7 +81,7 @@ Installation: pip or conda.
 [2D](http://nipy.org/dipy/examples_built/syn_registration_2d.html)
 and [3D](http://nipy.org/dipy/examples_built/syn_registration_3d.html).
 
-Installation: see [instructions](http://nipy.org/dipy/installation.html)
+Installation: see [instructions](https://github.com/dipy/dipy)
 
 ### nireg
 
