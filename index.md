@@ -41,6 +41,7 @@ site by making a contribution via
 * <a href='#python-register'>Python-register</a>
 * <a href='#silx'>Silx</a>
 * <a href='#gefolki'>GeFolki</a>
+* <a href='#pystackreg'>pystackreg</a>
 
 ----
 
@@ -136,3 +137,9 @@ Installation: needs compilation?
 [GeFolki](https://github.com/aplyer/gefolki) (Geoscience Extended FlOw Lucas- Kanade Iterative) is a coregistration method that has been developped in the framework of the [MEDUSA project](https://w3.onera.fr/medusa/gefolki), first for SAR/SAR co-registration, then for other cases of remote sensing image coregistration, including hetergeneous image co-registration (ex LIDAR/SAR, optics/SAR, hyperspectral/optics and so on). It is an adaptation of an optical flow method. The method is implemented in both Python and MATLAB.
 
 Installation: Just download the repo. Examples on how to use the modules are given. 
+
+### pystackreg
+
+[pystackreg](https://github.com/glichtner/pystackreg) is a python extension for the automatic alignment of a source image or a stack (movie) to a target image/reference frame. It is a Python/C++ port of the popular ImageJ extension TurboReg/StackReg written by Philippe Thevenaz/EPFL.
+
+Installation: pip or conda-forge
