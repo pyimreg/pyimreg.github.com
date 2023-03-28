@@ -41,6 +41,7 @@ site by making a contribution via
 * <a href='#python-register'>Python-register</a>
 * <a href='#silx'>Silx</a>
 * <a href='#gefolki'>GeFolki</a>
+* <a href='#spam'>spam</a>
 
 ----
 
@@ -136,3 +137,8 @@ Installation: needs compilation?
 [GeFolki](https://github.com/aplyer/gefolki) (Geoscience Extended FlOw Lucas- Kanade Iterative) is a coregistration method that has been developped in the framework of the [MEDUSA project](https://w3.onera.fr/medusa/gefolki), first for SAR/SAR co-registration, then for other cases of remote sensing image coregistration, including hetergeneous image co-registration (ex LIDAR/SAR, optics/SAR, hyperspectral/optics and so on). It is an adaptation of an optical flow method. The method is implemented in both Python and MATLAB.
 
 Installation: Just download the repo. Examples on how to use the modules are given. 
+
+### spam
+[spam](https://pypi.org/project/spam/) (Software for Practical Analysis of Materials) contains a mature library of Digital Image Correlation and Digital Volume Correlation tools, including scripts and graphical tools for non-rigid 2D and 3D registraion as well as a multi-modal registration package, based on a fitting of the joint histogram rather than mutual information. Tutorials for registration and multi-modal registraion can be found from the homepage.
+
+Installation: pip
