@@ -68,6 +68,12 @@ Installation: via [conda](https://anaconda.org/SimpleITK/simpleitk) or
 [pip](https://pypi.python.org/pypi/SimpleITK).
 
 
+### ITKElastix
+
+[ITKElastix](https://github.com/InsightSoftwareConsortium/ITKElastix) provides an ITK Python interface to Elastix,
+by the people from the ITK project. Installable via pip, with binary wheels available for all common platforms.
+
+
 ### PyElastix
 
 [PyElastix](https://github.com/almarklein/pyelastix) is a thin wrapper around
@@ -84,11 +90,13 @@ and [3D](http://nipy.org/dipy/examples_built/syn_registration_3d.html).
 
 Installation: see [instructions](https://github.com/dipy/dipy)
 
+
 ### nireg
 
 [nireg](https://github.com/nipy/nireg) aims to be a dedicated pure-Python image registration package. 
 
 It is yet to be fully documented and made usable to dummy users.
+
 
 ### ANTsPy
 
