@@ -32,6 +32,7 @@ site by making a contribution via
 
 * <a href='#scikit-image'>Scikit-Image</a>
 * <a href='#simpleitk'>SimpleITK</a>
+* <a href='#itkelastix'>ITKElastix</a>
 * <a href='#pyelastix'>PyElastix</a>
 * <a href='#dipy'>dipy</a>
 * <a href='#antspy'>ANTsPy</a>
